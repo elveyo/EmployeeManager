@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EmployeeManager.BusinessLogic/1.0.0": {
+        "runtime": {
+          "EmployeeManager.BusinessLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmployeeManager.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

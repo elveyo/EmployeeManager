@@ -1,0 +1,28 @@
+﻿
+@model EmployeeManager.BusinessLogic.Entities.EmployeeIndexVM
+@{
+ViewData["Title"] = "Employees";
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First nam</th>
+            <th scope="col">Last name</th>
+            <th scope="col">Department</th>
+            <th scope="col">Birth date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model.Employees)
+        {
+            <tr>
+                <th scope="row">1</th>
+                <td>@employee.FirstName</td>
+                <td>@employee.LastName</td>
+                <td>@employee.Department</td>
+                <td>@employee.BirthDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

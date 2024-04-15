@@ -1,0 +1,11 @@
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\bin\Debug\net6.0\EmployeeManager.BusinessLogic.deps.json
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\bin\Debug\net6.0\EmployeeManager.BusinessLogic.dll
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\bin\Debug\net6.0\EmployeeManager.BusinessLogic.pdb
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\obj\Debug\net6.0\EmployeeManager.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\obj\Debug\net6.0\EmployeeManager.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\obj\Debug\net6.0\EmployeeManager.BusinessLogic.AssemblyInfo.cs
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\obj\Debug\net6.0\EmployeeManager.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\obj\Debug\net6.0\EmployeeManager.BusinessLogic.dll
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\obj\Debug\net6.0\refint\EmployeeManager.BusinessLogic.dll
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\obj\Debug\net6.0\EmployeeManager.BusinessLogic.pdb
+C:\Users\Elvir\Desktop\Projects\EmployeeManager\EmployeeManafer.BusinessLogic\obj\Debug\net6.0\ref\EmployeeManager.BusinessLogic.dll

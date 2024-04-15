@@ -1,0 +1,30 @@
+@using Microsoft.AspNetCore.Authentication
+@model EmployeeManager.BusinessLogic.Entities.PositionIndexVM
+@{
+    ViewData["Title"] = "Positions";
+}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Department</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var position in Model.Positions)
+    {
+        <tr>
+            <th scope="row">@position.Code</th>
+            <td>@position.Name</td>
+            <td>@position.Description</td>
+            <td>@position.Department.Name</td>
+            
+              
+        </tr>
+    }
+    </tbody>
+</table>

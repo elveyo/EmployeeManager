@@ -1,0 +1,27 @@
+@model EmployeeManager.BusinessLogic.Entities.DepartmentIndexVM
+@{
+    ViewData["Title"] = "Departments";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Code</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in Model.Departments)
+        {
+            <tr>
+                <th scope="row">@department.Code</th>
+                <td>@department.Name</td>
+                <td>@department.Description</td>
+              
+            </tr>
+        }
+    </tbody>
+</table>
+
+
