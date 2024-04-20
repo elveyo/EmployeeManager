@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vHn51JvSjPEYkXbbZi03w6A+wtvFUJTdiHfMjq7wWpBEclydL1eJTVJcjA4i4ktsoczwiemMfNS4Vkiq0cbc7w==",
+  "dgSpecHash": "7tdUx6ON2KuYoRKuqq6uIObSQMlyCcPhTq5axEc98Tm6ob+kI9/85WQFhQ+I5t6YzQLOUUb5YSiHK/J23ljJdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Elvir\\Desktop\\Projects\\EmployeeManager\\EmployeeManager\\EmployeeManager.Web.csproj",
+  "projectFilePath": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\EmployeeManager.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Elvir\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Elvir\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -192,11 +192,7 @@
     "C:\\Users\\Elvir\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Elvir\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Elvir\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Elvir\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Elvir\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Elvir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Elvir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Elvir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+    "C:\\Users\\Elvir\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -3,26 +3,34 @@
 @{
 ViewData["Title"] = "Employees";
 }
+
+@if(TempData["Success"] is not null)
+{
+    <div class="alert alert-success" role="">
+        @TempData["Success"]
+    </div>
+}
+<a class="btn btn-success" asp-controller="Employee" asp-action="Add">Add user</a>
+
 <table class="table">
     <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">First nam</th>
-            <th scope="col">Last name</th>
-            <th scope="col">Department</th>
-            <th scope="col">Birth date</th>
-        </tr>
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Full Name</th>
+        <th scope="col">Department</th>
+        
+    </tr>
     </thead>
     <tbody>
-        @foreach (var employee in Model.Employees)
-        {
-            <tr>
-                <th scope="row">1</th>
-                <td>@employee.FirstName</td>
-                <td>@employee.LastName</td>
-                <td>@employee.Department</td>
-                <td>@employee.BirthDate.ToShortDateString()</td>
-            </tr>
-        }
+    @foreach (var employee in Model.Employees)
+    {
+        <tr>
+            <th scope="row">@employee.Id</th>
+            <td>@employee.FullName</td>
+            <td>@employee.Department</td>
+            <td><a asp-controller="Employee" asp-action="Edit" asp-route-id="@employee.Id">Edit</a></td>
+            
+        </tr>
+    }
     </tbody>
 </table>

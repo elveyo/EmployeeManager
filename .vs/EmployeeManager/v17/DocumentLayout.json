@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\viewmodels\\employeeaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\viewmodels\\employeeaddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\viewmodels\\employeeeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\viewmodels\\employeeeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547E0C3D-0562-45CF-BE77-DE88D2F4C279}|EmployeeManafer.BusinessLogic\\EmployeeManager.BusinessLogic.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanafer.businesslogic\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547E0C3D-0562-45CF-BE77-DE88D2F4C279}|EmployeeManafer.BusinessLogic\\EmployeeManager.BusinessLogic.csproj|solutionrelative:employeemanafer.businesslogic\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547E0C3D-0562-45CF-BE77-DE88D2F4C279}|EmployeeManafer.BusinessLogic\\EmployeeManager.BusinessLogic.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanafer.businesslogic\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547E0C3D-0562-45CF-BE77-DE88D2F4C279}|EmployeeManafer.BusinessLogic\\EmployeeManager.BusinessLogic.csproj|solutionrelative:employeemanafer.businesslogic\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\viewmodels\\employeeindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\viewmodels\\employeeindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547E0C3D-0562-45CF-BE77-DE88D2F4C279}|EmployeeManafer.BusinessLogic\\EmployeeManager.BusinessLogic.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanafer.businesslogic\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547E0C3D-0562-45CF-BE77-DE88D2F4C279}|EmployeeManafer.BusinessLogic\\EmployeeManager.BusinessLogic.csproj|solutionrelative:employeemanafer.businesslogic\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|c:\\users\\elvir\\documents\\github\\employeemanager\\employeemanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7A52889-4C6F-481C-A097-1D7E2EF1F361}|EmployeeManager\\EmployeeManager.Web.csproj|solutionrelative:employeemanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManager\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "EmployeeManager\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T15:47:00.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManafer.BusinessLogic\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManafer.BusinessLogic\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManafer.BusinessLogic\\Entities\\Employee.cs",
+              "RelativeToolTip": "EmployeeManafer.BusinessLogic\\Entities\\Employee.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:05:01.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Views\\Employee\\Add.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManager\\Views\\Employee\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Views\\Employee\\Add.cshtml",
+              "RelativeToolTip": "EmployeeManager\\Views\\Employee\\Add.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwBwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T13:57:27.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeAddVM.cs",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\ViewModels\\EmployeeAddVM.cs",
+              "RelativeDocumentMoniker": "EmployeeManager\\ViewModels\\EmployeeAddVM.cs",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\ViewModels\\EmployeeAddVM.cs",
+              "RelativeToolTip": "EmployeeManager\\ViewModels\\EmployeeAddVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T19:04:03.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManager\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EmployeeManager\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T15:58:30.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeManager\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeManager\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowGUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T15:57:59.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeEditVM.cs",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\ViewModels\\EmployeeEditVM.cs",
+              "RelativeDocumentMoniker": "EmployeeManager\\ViewModels\\EmployeeEditVM.cs",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\ViewModels\\EmployeeEditVM.cs",
+              "RelativeToolTip": "EmployeeManager\\ViewModels\\EmployeeEditVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T16:20:35.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManager\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "EmployeeManager\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T16:45:37.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManafer.BusinessLogic\\Store.cs",
+              "RelativeDocumentMoniker": "EmployeeManafer.BusinessLogic\\Store.cs",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManafer.BusinessLogic\\Store.cs",
+              "RelativeToolTip": "EmployeeManafer.BusinessLogic\\Store.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:06:08.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManafer.BusinessLogic\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "EmployeeManafer.BusinessLogic\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManafer.BusinessLogic\\Entities\\Department.cs",
+              "RelativeToolTip": "EmployeeManafer.BusinessLogic\\Entities\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:05:04.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "EmployeeManager\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "EmployeeManager\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T15:57:56.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManager\\Program.cs",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Program.cs",
+              "RelativeToolTip": "EmployeeManager\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T15:51:40.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeIndexVM.cs",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\ViewModels\\EmployeeIndexVM.cs",
+              "RelativeDocumentMoniker": "EmployeeManager\\ViewModels\\EmployeeIndexVM.cs",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\ViewModels\\EmployeeIndexVM.cs",
+              "RelativeToolTip": "EmployeeManager\\ViewModels\\EmployeeIndexVM.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:10:07.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EmployeeManager\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EmployeeManager\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-19T15:51:03.455Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

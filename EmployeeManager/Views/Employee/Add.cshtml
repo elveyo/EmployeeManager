@@ -1,0 +1,29 @@
+@model EmployeeManager.Web.ViewModals.EmployeeAddVM
+@{
+    ViewData["Title"] = "Add Employee";
+}
+@if(TempData["Error"] is not null)
+{
+    <div class = "alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+<form asp-controller="Employee" asp-action="Add" method="post">
+    <div class="form-group" >
+        <label asp-for="FirstName">First name</label>
+        <input required type="text" asp-for="FirstName" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName">Last name</label>
+        <input required type="text" asp-for="LastName" class="form-control" >
+    </div>
+    <div class="form-group">
+        <label asp-for="DepartmentId">Departments</label>
+        <select asp-for="DepartmentId" class="form-select" asp-items="Model.Departments"></select> 
+    </div>
+     <div class="form-group">
+            <label asp-for="BirthDate">Birth datee</label>
+            <input asp-for="BirthDate" type="date" class="form-select">
+        </div>
+    <button type="submit" class="btn btn-primary">Add user</button>
+</form>

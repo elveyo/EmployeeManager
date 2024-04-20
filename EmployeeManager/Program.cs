@@ -4,6 +4,7 @@ namespace EmployeeManager
     {
         public static void Main(string[] args)
         {
+            var hell = 2;
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.

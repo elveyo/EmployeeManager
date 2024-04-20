@@ -13,4 +13,10 @@ public class DepartmentController : Controller
         var response = new DepartmentIndexVM(){Departments= Store.DepartmentStore};   
         return View(response);
     }
+
+    [HttpPost]
+    public IActionResult Add()
+    {
+        return View();
+    }
 }

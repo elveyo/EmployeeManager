@@ -10,7 +10,15 @@ namespace EmployeeManager.BusinessLogic.Entities
     public class EmployeeIndexVM
     {
 
-        public List<Employee>Employees { get; set; } 
+        public List<EmployeeView>Employees { get; set; } 
         
+    }
+
+    public class EmployeeView
+    {
+        public int Id { get; set; }
+        public string FullName { get; set; }
+        public string Department { get; set; }
+
     }
 }

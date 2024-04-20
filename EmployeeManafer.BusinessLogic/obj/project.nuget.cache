@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w6kKvvR5xWo6h59GT810tmfCgJCT+sEM3KADvJgJqZv7MEVBc1zJNClR7XFMx7J3lXLQQTciMP8GV7laAXdyuQ==",
+  "dgSpecHash": "HltCFzPu8SCu31iXNJFDslR5ogj9fdrBW9u7c5ePNEDVAlCjjzkivJeLfTwtfbofomDymKziOaYlqgScYJeJlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Elvir\\Desktop\\Projects\\EmployeeManager\\EmployeeManafer.BusinessLogic\\EmployeeManager.BusinessLogic.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Elvir\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Elvir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Elvir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManafer.BusinessLogic\\EmployeeManager.BusinessLogic.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,30 @@
+﻿@model EmployeeManager.Web.ViewModals.EmployeeEditVM
+@{
+    ViewData["Title"] = "Add Employee";
+}
+@if (TempData["Error"] is not null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+<form asp-controller="Employee" asp-action="Edit" method="post" asp-route-id="@Model.Id">
+    <div class="form-group mt-2">
+        <label asp-for="FirstName">First name</label>
+        <input required type="text" asp-for="FirstName" class="form-control">
+    </div>
+    <div class="form-group  mt-2">
+        <label asp-for="LastName">Last name</label>
+        <input required type="text" asp-for="LastName" class="form-control">
+    </div>
+    <div class="form-group  mt-2">
+        <label asp-for="DepartmentId">Departments</label>
+        <select asp-for="DepartmentId" class="form-select" asp-items="Model.Departments"></select>
+    </div>
+    <div class="form-group  mt-2">
+        <label asp-for="BirthDate">Birth datee</label>
+        <input asp-for="BirthDate" type="date" class="form-select">
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Edit user</button>
+    <a class="btn btn-danger mt-2" asp-controller="Employee" asp-action="Delete" asp-route-id="@Model.Id">Delete user</a>
+</form>

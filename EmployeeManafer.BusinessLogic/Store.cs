@@ -9,14 +9,16 @@ namespace EmployeeManager.BusinessLogic
 {
     public static class Store
     {
+        public static int EmployeeID = 1;
         public static List<Employee> EmployeeStore = [
 
             new Employee()
             {
+                Id = EmployeeID,
                 FirstName = "Elvir",
                 LastName = "Agic",
                 BirthDate = new DateOnly(2003,9,11),
-                Department="Engineering"
+                DepartmentId = 1
 
             }
             ];
