@@ -17,7 +17,7 @@ namespace EmployeeManager.BusinessLogic
                 Id = EmployeeID,
                 FirstName = "Elvir",
                 LastName = "Agic",
-                BirthDate = new DateOnly(2003,9,11),
+                BirthDate = new DateTime(2003,9,11),
                 DepartmentId = 1
 
             }
