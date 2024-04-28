@@ -14,5 +14,8 @@ namespace EmployeeManager.BusinessLogic.Entities
         public string LastName { get; set; }
         public DateTime BirthDate { get; set; }
         public int DepartmentId { get; set; }
+       public Department Department { get; set; }
+        public User User { get; set; }
+        public ICollection<ProjectEmployee> ProjectEmployees { get; set; }
     }
 }

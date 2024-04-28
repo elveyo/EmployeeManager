@@ -4,6 +4,7 @@ using EmployeeManager.BusinessLogic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeManager.BusinessLogic.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    partial class ApplicationDBContextModelSnapshot : ModelSnapshot
+    [Migration("20240428043405_adding-project-employee-table")]
+    partial class addingprojectemployeetable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -97,7 +100,7 @@ namespace EmployeeManager.BusinessLogic.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Project", (string)null);
+                    b.ToTable("Project");
                 });
 
             modelBuilder.Entity("EmployeeManager.BusinessLogic.Entities.ProjectEmployee", b =>
@@ -126,7 +129,7 @@ namespace EmployeeManager.BusinessLogic.Migrations
 
                     b.HasIndex("ProjectId");
 
-                    b.ToTable("ProjectEmployess", (string)null);
+                    b.ToTable("ProjectEmployess");
                 });
 
             modelBuilder.Entity("EmployeeManager.BusinessLogic.Entities.User", b =>

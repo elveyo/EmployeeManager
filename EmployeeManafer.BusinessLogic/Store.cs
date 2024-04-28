@@ -26,9 +26,9 @@ namespace EmployeeManager.BusinessLogic
         public static List<Department> DepartmentStore =
         [
 
-            new Department("Development Department", 1, "Department for software development"),
-            new Department("Quality Assurance Department", 2, "Department for software quality"),
-            new Department("Sales and Marketing Department", 3, "Department for software promotion")
+            new Department("Development Department", "1", "Department for software development"),
+            new Department("Quality Assurance Department", "2", "Department for software quality"),
+            new Department("Sales and Marketing Department", "3", "Department for software promotion")
 
         ];
 
