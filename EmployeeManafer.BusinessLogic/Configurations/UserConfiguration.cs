@@ -28,7 +28,9 @@ namespace EmployeeManager.BusinessLogic.Configurations
             builder
                 .HasOne(x => x.Employee)
                 .WithOne(x => x.User)
-                .HasForeignKey<Employee>(x => x.Id);
+                .HasForeignKey<Employee>(x => x.Id)
+                .OnDelete(DeleteBehavior.Restrict);
+
         }
 
 

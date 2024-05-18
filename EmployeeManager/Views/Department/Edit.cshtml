@@ -1,0 +1,33 @@
+﻿@using EmployeeManager.Web.Services
+@model EmployeeManager.Web.ViewModels.DepartmetsModels.DepartmentEditVM
+
+@{
+    ViewData["Title"] = "Edit Department";
+}
+@* @if (TempData["Error"] is not null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+} *@
+<form asp-controller="Department" asp-action="Edit" method="post" asp-rotue-id="@Model.Id">
+    <h4>Department data</h4>
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input required type="text" asp-for="Name" class="form-control">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Code">Code</label>
+        <input required type="text" asp-for="Code" class="form-control">
+        <span asp-validation-for="Code" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <input required type="text" asp-for="Description" class="form-control">
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-3">Edit department</button>
+    <a asp-controller="Department" asp-action="Delete" asp-route-id="@Model.Id"  class="btn btn-danger mt-3">Delete department</a>
+</form>

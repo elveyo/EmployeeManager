@@ -1,3 +1,32 @@
+@using EmployeeManager.Web.Services
+@model EmployeeManager.Web.ViewModels.DepartmetsModels.DepartmentAddVM
 
-
-<h1>hehehe</h1>
+@{
+    ViewData["Title"] = "Add Department";
+}
+@* @if (TempData["Error"] is not null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+} *@
+<form asp-controller="Department" asp-action="Add" method="post">
+    <h4>Department data</h4>
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input required type="text" asp-for="Name" class="form-control">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Code">Code</label>
+        <input required type="text" asp-for="Code" class="form-control">
+        <span asp-validation-for="Code" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <input required type="text" asp-for="Description" class="form-control">
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-success mt-3">Add department</button>
+</form>

@@ -1,18 +1,34 @@
 ﻿using EmployeeManager.BusinessLogic;
 using EmployeeManager.BusinessLogic.Entities;
+using EmployeeManager.BusinessLogic.Services.Employees;
+using EmployeeManager.BusinessLogic.Services.Employees;
 using EmployeeManager.Web.ViewModals;
+using FluentValidation;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace EmployeeManager.Controllers
 {
     public class EmployeeController : Controller
     {
         private readonly ApplicationDBContext dbContext;
+        private readonly IValidator<EmployeeAddVM> addEmployeeValidator;
+        private readonly IEmployeeService employeeServise;
 
-        public EmployeeController(ApplicationDBContext context) {
+        public EmployeeController(
+
+            ApplicationDBContext context,
+            IValidator<EmployeeAddVM> employeeAddVMValidator,
+            IEmployeeService employeeServise
+
+            ) {
+
             dbContext = context;
+            addEmployeeValidator = employeeAddVMValidator;
+            this.employeeServise = employeeServise;
         }
         public IActionResult Index()
 
@@ -36,37 +52,24 @@ namespace EmployeeManager.Controllers
         [HttpGet]
         public IActionResult Add()
         {
-            var employeeModel = new EmployeeAddVM();
-            FillEmployeeViewModel(employeeModel);
-            return View(employeeModel);
+            return View(new EmployeeAddVM());
         }
 
 
         [HttpPost]
         public IActionResult Add([FromForm]EmployeeAddVM request)
         {
-            //If valdiation fails, we return form again with specific error.
-            if (!validateFormData(request))
+            var validation = addEmployeeValidator.Validate(request);
+            if (!validation.IsValid)
             {
-                FillEmployeeViewModel(request);
-                TempData["Error"] = "Enter valid data!";
+                foreach(var error in validation.Errors)
+    {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
                 return View(request);
             }
-            var emp = new Employee()
-            {
-                FirstName = request.FirstName,
-                LastName = request.LastName,
-                BirthDate = request.BirthDate,
-                DepartmentId = request.DepartmentId,
-                User = new User()
-                {
-                    Username = "someone",
-                    Password = "lol",
-                    Email = "lol@gmail.com"
-                }
-            };
-            dbContext.Employees.Add(emp);
-            dbContext.SaveChanges();
+            employeeServise.Create(request.Username, request.Password, request.Email, request.FirstName,request.LastName,request.BirthDate, request.DepartmentId);
+            
             TempData["Success"] = "Employee successfully added.";
             return RedirectToAction("Index");
             
@@ -85,7 +88,6 @@ namespace EmployeeManager.Controllers
                 BirthDate = employee.BirthDate,
                 DepartmentId = employee.DepartmentId
             };
-            FillEmployeeEditModel(employeeModel);
             return View(employeeModel);
         }
 
@@ -95,14 +97,7 @@ namespace EmployeeManager.Controllers
 
         {
 
-            var employee = dbContext.Employees.First(emp=>emp.Id == id);
-            //updating existing user with new data from form
-            employee.FirstName = request.FirstName;
-            employee.LastName = request.LastName;
-            employee.BirthDate = request.BirthDate;
-            employee.DepartmentId = request.DepartmentId;
-            dbContext.Employees.Update(employee);
-            dbContext.SaveChanges();
+            employeeServise.Update(id, request.FirstName, request.LastName, request.BirthDate, request.DepartmentId);
 
             TempData["Success"] = "You have successfully edited employee";
             return RedirectToAction("Index");
@@ -111,35 +106,12 @@ namespace EmployeeManager.Controllers
         [HttpGet]
         public IActionResult Delete([FromRoute]int id)      
         {
-            var employee = dbContext.Employees.First(emp=>emp.Id==id);
-            dbContext.Employees.Remove(employee);
+            employeeServise.Delete(id);
             TempData["Success"] = "You successfully deleted employee.";
-            dbContext.SaveChanges();
             return RedirectToAction("Index");
         }
-        private void FillEmployeeViewModel(EmployeeAddVM request)
-        {
-            request.Departments = dbContext.Departments.Select(department => new SelectListItem
-            {
+       
+   
 
-                Value = department.Id.ToString(),
-                Text = department.Name
-            }).ToList();
-        }
-        private void FillEmployeeEditModel(EmployeeEditVM request)
-        {
-            request.Departments = dbContext.Departments.Select(department => new SelectListItem
-            {
-
-                Value = department.Id.ToString(),
-                Text = department.Name
-            }).ToList();
-
-        }
-
-        private bool validateFormData(EmployeeAddVM request)
-        {
-            return !(string.IsNullOrWhiteSpace(request.FirstName) || string.IsNullOrWhiteSpace(request.LastName));
-        }
     }
 }

@@ -97,7 +97,7 @@ namespace EmployeeManager.BusinessLogic.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Project", (string)null);
+                    b.ToTable("Project");
                 });
 
             modelBuilder.Entity("EmployeeManager.BusinessLogic.Entities.ProjectEmployee", b =>
@@ -126,7 +126,7 @@ namespace EmployeeManager.BusinessLogic.Migrations
 
                     b.HasIndex("ProjectId");
 
-                    b.ToTable("ProjectEmployess", (string)null);
+                    b.ToTable("ProjectEmployess");
                 });
 
             modelBuilder.Entity("EmployeeManager.BusinessLogic.Entities.User", b =>
@@ -161,13 +161,13 @@ namespace EmployeeManager.BusinessLogic.Migrations
                     b.HasOne("EmployeeManager.BusinessLogic.Entities.Department", "Department")
                         .WithMany("Employees")
                         .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("EmployeeManager.BusinessLogic.Entities.User", "User")
                         .WithOne("Employee")
                         .HasForeignKey("EmployeeManager.BusinessLogic.Entities.Employee", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Department");
@@ -178,13 +178,13 @@ namespace EmployeeManager.BusinessLogic.Migrations
             modelBuilder.Entity("EmployeeManager.BusinessLogic.Entities.ProjectEmployee", b =>
                 {
                     b.HasOne("EmployeeManager.BusinessLogic.Entities.Employee", "Employee")
-                        .WithMany()
+                        .WithMany("ProjectEmployees")
                         .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("EmployeeManager.BusinessLogic.Entities.Project", "Project")
-                        .WithMany()
+                        .WithMany("ProjectEmployees")
                         .HasForeignKey("ProjectId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -197,6 +197,16 @@ namespace EmployeeManager.BusinessLogic.Migrations
             modelBuilder.Entity("EmployeeManager.BusinessLogic.Entities.Department", b =>
                 {
                     b.Navigation("Employees");
+                });
+
+            modelBuilder.Entity("EmployeeManager.BusinessLogic.Entities.Employee", b =>
+                {
+                    b.Navigation("ProjectEmployees");
+                });
+
+            modelBuilder.Entity("EmployeeManager.BusinessLogic.Entities.Project", b =>
+                {
+                    b.Navigation("ProjectEmployees");
                 });
 
             modelBuilder.Entity("EmployeeManager.BusinessLogic.Entities.User", b =>

@@ -1,12 +1,21 @@
-@model EmployeeManager.BusinessLogic.Entities.DepartmentIndexVM
+@model EmployeeManager.Web.ViewModels.DepartmetsModels.DepartmentIndexVM
+
+
 @{
     ViewData["Title"] = "Departments";
 }
+@if (TempData["Success"] is not null)
+{
+    <div class="alert alert-success" role="">
+        @TempData["Success"]
+    </div>
+}
+<a class="btn btn-success" asp-controller="Department" asp-action="Add">Add department</a>
 
-<table class="table">
+<table class="table mt-3">
     <thead>
         <tr>
-            <th scope="col">Codeeeeeeee</th>
+            <th scope="col">Code</th>
             <th scope="col">Name</th>
             <th scope="col">Description</th>
         </tr>
@@ -18,6 +27,7 @@
                 <th scope="row">@department.Code</th>
                 <td>@department.Name</td>
                 <td>@department.Description</td>
+                <td><a class="btn btn-outline-success py-1" asp-controller="Department" asp-action="Edit" asp-route-id="@department.Id">Edit</a></td>
               
             </tr>
         }

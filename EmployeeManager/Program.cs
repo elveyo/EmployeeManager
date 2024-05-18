@@ -1,4 +1,10 @@
 using EmployeeManager.BusinessLogic;
+using EmployeeManager.BusinessLogic.Services.Departments;
+using EmployeeManager.BusinessLogic.Services.Employees;
+using EmployeeManager.Web.Services;
+using EmployeeManager.Web.Validators;
+using EmployeeManager.Web.ViewModals;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManager
@@ -19,7 +25,25 @@ namespace EmployeeManager
                     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
                 });
 
+            builder.
+                Services
+                .AddScoped<ISelectListService, SelectListService>();
+            //validator dependency
+
+            builder
+                .Services
+                .AddScoped<IValidator<EmployeeAddVM>, EmployeeAddVMValidator>();
+            //adding entity services
+            builder
+                .Services
+                .AddScoped<IEmployeeService, EmployeeService>();
+            builder
+                .Services
+                .AddScoped<IDepartmentService, DepartmentService>();
+
             var app = builder.Build();
+
+          
 
 
             // Configure the HTTP request pipeline.

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fD3CjngL4krLNQOvAD6zwghCw+CX8h2JvOVnipt+comsKgp1Wl/ID3S6MVLxxDlr8EpbCVe98gbgzFH3/MuMMQ==",
+  "dgSpecHash": "ctEtT4mmK53uJz+ggdAcTRWDNNVI8lQCO57sY5k5Fg5MAwNtEQQ01uhvqgG5lQmVPMPAr/F8ck28uWPy9Oc9dw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Elvir\\Documents\\GitHub\\EmployeeManager\\EmployeeManager\\EmployeeManager.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Elvir\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Elvir\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Elvir\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\Elvir\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Elvir\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Elvir\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

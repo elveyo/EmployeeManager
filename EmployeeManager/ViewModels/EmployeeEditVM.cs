@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿    using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace EmployeeManager.Web.ViewModals;
 
@@ -10,12 +10,4 @@ public class EmployeeEditVM
     public DateTime BirthDate { get; set; }
     public int DepartmentId { get; set; }
 
-
-    //this is list of departments shown on Add Employee form
-    public List<SelectListItem> Departments { get; set; }
-
-    public EmployeeEditVM()
-    {
-        Departments = new List<SelectListItem>();
-    }
 }

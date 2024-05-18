@@ -9,10 +9,7 @@ public class PositionController : Controller
     // GET
     public IActionResult Index()
     {
-        var response = new PositionIndexVM()
-        {
-            Positions = Store.PositionStore
-        };
-        return View(response);
+
+        return View();
     }
 }

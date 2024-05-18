@@ -28,7 +28,7 @@ ViewData["Title"] = "Employees";
             <th scope="row">@employee.Id</th>
             <td>@employee.FullName</td>
             <td>@employee.Department</td>
-            <td><a asp-controller="Employee" asp-action="Edit" asp-route-id="@employee.Id">Edit</a></td>
+            <td><a class="btn btn-outline-success py-1" asp-controller="Employee" asp-action="Edit" asp-route-id="@employee.Id">Edit</a></td>
             
         </tr>
     }
